@@ -1,6 +1,6 @@
 ## **The Agentic Research Abstract generator and Web Content Summariser Agent With Langraph**
 
-The project is builton the use of LangGraph approach as a solution for building Agentic AI foor users with the use of Large Language Models (LLMs) and prompt engineering to create a research agent that gives you web content summaries via the Langchain SeleniumURLLoader tool and the generation of captivating abstracts based on the category and title you have prompted the model.
+The project is built on the use of LangGraph approach as a solution for building Agentic AI foor users with the use of Large Language Models (LLMs) and prompt engineering to create a research agent that gives you web content summaries via the Langchain SeleniumURLLoader tool and the generation of captivating abstracts based on the category and title you have prompted the model.
 
 ![Research Assistant Flow Chart](img/Agentic%20Research%20Assistant%20AI.png)
 
@@ -51,9 +51,9 @@ For example prompts, refer to prompts.md
 When `main.py` is ran, the graph would be run and the user will be prompted to navigate to their desired use case.
 
 Here is the Publication on;
-- [ReadyTensor](https://app.readytensor.ai/publications/research-assistant-LstceSnb3IDH)
+- [ReadyTensor](https://app.readytensor.ai/publications/the-agentic-research-abstract-generator-and-web-content-summariser-agent-with-langraph-gYeyu875mKsB)
 
 ### **Issues faced**:
 - Trying to tie everything together using LangGraph and make it modular. I believe it could be easily done better using Crew.ai which is dedicated to agents orchestration. (which should be explored)
 - Exceeded the monthly limit with Huggingface inference point due to being on the free subscription plan. A pro plan should be used for further testing or use Ollama?
-- URLs passed needs to be websites without authentication, I recommend using mdpi.com for researc articles.
+- URLs passed needs to be websites without authentication, I recommend using mdpi.com for research articles.
