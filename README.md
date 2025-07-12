@@ -55,5 +55,5 @@ Here is the Publication on;
 
 ### **Issues faced**:
 - Trying to tie everything together using LangGraph and make it modular. I believe it could be easily done better using Crew.ai which is dedicated to agents orchestration. (which should be explored)
-- Exceeded the monthly limit with Huggingface inference point due to being on the free subscription plan. A pro plan should be used for further testing.
+- Exceeded the monthly limit with Huggingface inference point due to being on the free subscription plan. A pro plan should be used for further testing or use Ollama?
 - URLs passed needs to be websites without authentication, I recommend using mdpi.com for researc articles.
