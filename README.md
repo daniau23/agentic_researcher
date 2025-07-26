@@ -1,6 +1,13 @@
-## **The Agentic Research Abstract generator and Web Content Summariser Agent With Langraph**
+## 🧠 Agentic Research Abstract Generator & Web Summariser
+An agent-based system using LangGraph and HuggingFace models to generate research abstracts and summarize web content, with modular workflows, memory handling, and task-specific agents.
 
-The project is built on the use of LangGraph approach as a solution for building Agentic AI foor users with the use of Large Language Models (LLMs) and prompt engineering to create a research agent that gives you web content summaries via the Langchain SeleniumURLLoader tool and the generation of captivating abstracts based on the category and title you have prompted the model.
+### 🚀 Features
+- 🔍 Web Content Summarization Agent
+- 📝 Research Abstract Writer with Feedback Loop
+- 🧑‍⚖️ Critic Agent to assess and approve abstracts
+- 🌐 LangGraph for orchestration & state tracking
+- 🔄 CLI interface for task routing
+- 📈 Evaluation metrics and logging
 
 ![Research Assistant Flow Chart](img/Agentic%20Research%20Assistant%20AI.png)
 

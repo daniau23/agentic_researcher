@@ -1,9 +1,17 @@
+"""
+Article Graph
+
+Workflow:
+  writer -> critic -> [ACCEPTED -> END, REJECTED -> writer]
+"""
+
 from langgraph.graph import StateGraph, END
 from shared import ResearchState
 from .writer import writer_node
 from .critic import critic_node
 
 builder = StateGraph(ResearchState)
+
 builder.add_node("writer", writer_node)
 builder.add_node("critic", critic_node)
 
